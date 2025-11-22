@@ -23,6 +23,15 @@ interface CustomCardProps {
   className?: string
 }
 export function CustomCard({ exp, className }: CustomCardProps) {
+  const images = import.meta.glob('/src/assets/images/projects_images/*', {
+    eager: true,
+    as: 'url',
+  })
+
+  // screenshot is something like 'my-image.png'
+  const getScreenshotUrl = (screenshot: string) =>
+    images[`/src/assets/images/projects_images/${screenshot}`]
+
   return (
     <Card
       className={`flex flex-col w-full lg:w-[47.5%] h-auto pt-8 lg:p-8 ml-3 gap-6 rounded-3xl border-2 border-bg-secondary bg-bg-primary text-text-primary shadow-lg group hover:bg-bg-secondary hover:text-bg-primary hover:border-2 hover:-translate-y-2 transition-all duration-300 ${className}`}
@@ -128,7 +137,7 @@ export function CustomCard({ exp, className }: CustomCardProps) {
                               <DialogTrigger asChild>
                                 <div className='w-full h-40 rounded-lg border bg-muted hover:scale-105 transition-transform cursor-pointer'>
                                   <img
-                                    src={`/src/assets/images/projects_images/${screenshot}`}
+                                    src={getScreenshotUrl(screenshot)}
                                     alt={`${project.name} screenshot ${
                                       screenshotIndex + 1
                                     }`}
@@ -139,7 +148,7 @@ export function CustomCard({ exp, className }: CustomCardProps) {
                               <DialogContent className='flex items-center max-w-7xl w-[80%] h-[70%] p-0 text-bg-secondary'>
                                 <div className='relative w-full h-full flex items-center justify-center bg-bg-primary/90'>
                                   <img
-                                    src={`/src/assets/images/projects_images/${screenshot}`}
+                                    src={getScreenshotUrl(screenshot)}
                                     alt={`${project.name} screenshot ${
                                       screenshotIndex + 1
                                     }`}
