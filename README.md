@@ -30,12 +30,14 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 ## 🛠 Tech Stack
 
 ### Core Technologies
+
 - **React 18.3** - UI library
 - **TypeScript 5.5** - Type-safe JavaScript
 - **Vite 5.4** - Build tool and dev server
 - **Tailwind CSS 4.0** - Utility-first CSS framework
 
 ### UI Components & Libraries
+
 - **Shadcn/ui** - Reusable component library
 - **Radix UI** - Accessible component primitives
 - **Lucide React** - Icon library
@@ -43,6 +45,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - **React Type Animation** - Typewriter text effects
 
 ### Development Tools
+
 - **ESLint** - Code linting
 - **PostCSS** - CSS processing
 - **Class Variance Authority** - Component variant management
@@ -127,6 +130,7 @@ The entire portfolio content is driven by a single JSON file located at `src/ass
 ### Detailed Schema
 
 #### 1. Type Animation List
+
 Defines the rotating text in the header.
 
 ```json
@@ -143,6 +147,7 @@ Defines the rotating text in the header.
 ```
 
 #### 2. Personal Info
+
 Your introduction and location.
 
 ```json
@@ -156,6 +161,7 @@ Your introduction and location.
 ```
 
 #### 3. Contact Info
+
 Social media and contact links.
 
 ```json
@@ -167,6 +173,7 @@ Social media and contact links.
 ```
 
 #### 4. Skills
+
 Categorized technical skills.
 
 ```json
@@ -179,6 +186,7 @@ Categorized technical skills.
 ```
 
 #### 5. Education
+
 Educational background with timeline.
 
 ```json
@@ -195,6 +203,7 @@ Educational background with timeline.
 ```
 
 #### 6. Work Experience
+
 Professional work history with projects.
 
 ```json
@@ -221,6 +230,7 @@ Professional work history with projects.
 ```
 
 #### 7. Personal Projects
+
 Side projects and portfolio pieces.
 
 ```json
@@ -246,19 +256,19 @@ Side projects and portfolio pieces.
 
 ### Field Descriptions
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `company` | string | Optional | Company/Institution name |
-| `title` | string | Required | Job title or degree name |
-| `location` | string | Optional | City, Country |
-| `startDate` | string | Required | Start date (formatted as "Mon YYYY") |
-| `endDate` | string | Optional | End date or "Present" |
-| `description` | string | Required | Brief description of role/project |
-| `projects` | Project[] | Optional | Array of related projects |
-| `technologies` | string[] | Required | List of technologies used |
-| `screenshots` | string[] | Optional | Array of image filenames |
-| `demoLink` | string | Optional | Live demo URL |
-| `githubLink` | string | Optional | GitHub repository URL |
+| Field          | Type      | Required | Description                          |
+| -------------- | --------- | -------- | ------------------------------------ |
+| `company`      | string    | Optional | Company/Institution name             |
+| `title`        | string    | Required | Job title or degree name             |
+| `location`     | string    | Optional | City, Country                        |
+| `startDate`    | string    | Required | Start date (formatted as "Mon YYYY") |
+| `endDate`      | string    | Optional | End date or "Present"                |
+| `description`  | string    | Required | Brief description of role/project    |
+| `projects`     | Project[] | Optional | Array of related projects            |
+| `technologies` | string[]  | Required | List of technologies used            |
+| `screenshots`  | string[]  | Optional | Array of image filenames             |
+| `demoLink`     | string    | Optional | Live demo URL                        |
+| `githubLink`   | string    | Optional | GitHub repository URL                |
 
 ### Adding Images
 
@@ -295,23 +305,26 @@ interface Experience {
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - npm, yarn, or pnpm
 
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/SABBIDO7/portfolio.git
    cd portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    ```
@@ -338,10 +351,12 @@ npm run preview
 ### Customizing Content
 
 1. **Update personal information**
+
    - Edit `src/assets/data/data_source.json`
    - Follow the [JSON Data Architecture](#-json-data-architecture) guide
 
 2. **Replace images**
+
    - Profile: `src/assets/images/profileImage.jpeg`
    - CV: `src/assets/images/CV.pdf`
    - Project screenshots: `src/assets/images/projects_images/`
@@ -357,6 +372,7 @@ npx shadcn@latest add [component-name]
 ```
 
 Example:
+
 ```bash
 npx shadcn@latest add accordion
 ```
