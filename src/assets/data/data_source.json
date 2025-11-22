@@ -1,0 +1,468 @@
+{
+  "type_animation_list": [
+    {
+      "type": "text",
+      "value": "> I am a Software Engineer"
+    },
+    {
+      "type": "delay",
+      "value": 2000
+    },
+    {
+      "type": "text",
+      "value": "> I am a Full-Stack Developer"
+    },
+    {
+      "type": "delay",
+      "value": 2000
+    }
+  ],
+  "personal_info": {
+    "description": [
+      "I am Walid Sabbidine,",
+      "Fullstack Software Engineer with experience across Web, Mobile and AI development. Skilled in Python, .Net, React, FastAPI and Flutter development, with a strong background in building scalable applications, cloud integration, and CI/CD pipelines. Experienced in working in international teams and delivering end-to-end solutions."
+    ],
+    "location": "Île De France, Gagny, France"
+  },
+  "contact_info": {
+    "email": "sabbidinewalid12345@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/walid-sabbidine-aa220322a",
+    "github": "https://github.com/SABBIDO7?tab=repositories"
+  },
+  "skills": [
+    {
+      "title": "Prog Languages",
+      "technologies": [
+        "Python",
+        "JavaScript/TypeScript",
+        "Dart",
+        "C#",
+        "C++",
+        "Java",
+        "PHP",
+        "HTML/CSS",
+        "SQL/NoSQL"
+      ]
+    },
+    {
+      "title": "Frameworks & Lib",
+      "technologies": [
+        "React.js",
+        "Fast API",
+        ".Net Core",
+        "Flutter",
+        "Streamlit",
+        "Laravel",
+        "TensorFlow",
+        "OpenCV",
+        "RPi.GPIO",
+        "LLMLite",
+        "Tailwind CSS",
+        "Pytest"
+      ]
+    },
+    {
+      "title": "Systems & Tools",
+      "technologies": [
+        "Docker",
+        "CI/CD",
+        "Git",
+        "Linux Azure",
+        "Swagger",
+        "Unreal Engine",
+        "Raspberry Pi",
+        "Snowflake",
+        "Grafana",
+        "Firebase",
+        "MQTT",
+        "Whisper/GPT"
+      ]
+    },
+    {
+      "title": "Languages",
+      "technologies": ["French", "English", "Arabic"]
+    }
+  ],
+  "educations": [
+    {
+      "company": "Université d'Artois",
+      "title": "Master 2 En Informatique",
+      "location": "Lens, France",
+      "startDate": "Sep 2024",
+      "endDate": "Sep 2025",
+      "description": "Master's degree in Computer Science with a focus on Artificial Intelligence and Gaming (Unreal Engine) development. Completed advanced projects in machine learning, deep learning, and cross-platform mobile technologies."
+    },
+    {
+      "company": "Antonine University",
+      "title": "Software Engineer Degree",
+      "location": "Baabda, Lebanon",
+      "startDate": "Sep 2019",
+      "endDate": "Jun 2024",
+      "description": "Engineering degree in Software Engineering covering comprehensive software development fundamentals including algorithms, data structures, object-oriented programming, database systems, web development, and software architecture."
+    },
+    {
+      "company": "Zahrat El Ihsan School",
+      "title": "Scientific Lebanese Baccalaureate",
+      "location": "Beirut, Lebanon",
+      "startDate": "Graduated",
+      "endDate": "Jun 2019",
+      "description": "Lebanese Baccalaureate with specialization in Sciences, focusing on mathematics, physics, chemistry, and biology."
+    }
+  ],
+  "experiences": [
+    {
+      "company": "iBanFirst",
+      "title": "Fullstack AI Engineer – Intern",
+      "location": "Paris, France",
+      "startDate": "Apr 2025",
+      "endDate": "Sep 2025 (6. mo)",
+      "description": "Automated financial audit processes and built LLM-powered reporting tools.",
+      "projects": [
+        {
+          "name": "Audit Letter Automation",
+          "description": "Reduced audit letter generation time from 30 minutes to 1 minute using LLM integration",
+          "technologies": [
+            "Python",
+            "Streamlit",
+            "Snowflake SQL",
+            "LLMLite",
+            "Azure OpenAI",
+            "JiraApi",
+            "docxtpl",
+            "OpenPyXL",
+            "Pytest",
+            "CI/CD",
+            "Docker"
+          ],
+          "screenshots": [
+            "image_1.png",
+            "image_2.png",
+            "image_3.png",
+            "image_4.png"
+          ]
+        },
+        {
+          "name": "Financial Reports Automation",
+          "description": "Automated Bank statements, RFI and SAR reports with Word/Excel generation modules",
+          "technologies": [
+            "Python",
+            "Streamlit",
+            "Snowflake SQL",
+            "docxtpl",
+            "LLMLite",
+            "JiraApi",
+            "Pytest",
+            "CI/CD",
+            "Docker"
+          ],
+          "screenshots": []
+        }
+      ]
+    },
+    {
+      "company": "Paradox Software Solutions",
+      "title": "Fullstack Software Engineer - CDI",
+      "location": "Beirut, Lebanon",
+      "startDate": "Sep 2023",
+      "endDate": "Sep 2024 (1 y.)",
+      "description": "Built sales management systems and mobile POS solutions.",
+      "projects": [
+        {
+          "name": "Sales Management Web App",
+          "description": "Complete sales management platform with invoicing and employee tracking",
+          "technologies": [
+            "React.js",
+            "Tailwind CSS",
+            "MUI",
+            "FastAPI",
+            "Python",
+            "MySQL",
+            "CI/CD",
+            "Docker"
+          ],
+          "screenshots": [
+            "image_5.png",
+            "image_6.png",
+            "image_7.png",
+            "image_8.png",
+            "image_9.png",
+            "image_10.png",
+            "image_11.png",
+            "image_12.png",
+            "image_13.png",
+            "image_14.png",
+            "image_15.png",
+            "image_16.png",
+            "image_17.png"
+          ]
+        },
+        {
+          "name": "Mobile Mini POS",
+          "description": "Migrated and optimized mobile point-of-sale system",
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "FastAPI",
+            "Python",
+            "CI/CD",
+            "Docker"
+          ],
+          "screenshots": []
+        }
+      ]
+    },
+    {
+      "company": "Cema",
+      "title": "Fullstack Engineer – Freelance",
+      "location": "Remote",
+      "startDate": "Sep 2024",
+      "endDate": "Mar 2025 (6. mo)",
+      "description": "Developed e-commerce platform with modern web technologies.",
+      "projects": [
+        {
+          "name": "E-commerce Website",
+          "description": "Full-stack e-commerce solution with CI/CD pipeline",
+          "technologies": [
+            "React.js",
+            "MUI",
+            "Shadcn",
+            ".NET 8 (API)",
+            "CI/CD",
+            "Docker"
+          ],
+          "screenshots": [
+            "image_18.png",
+            "image_19.png",
+            "image_20.png",
+            "image_21.png"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "CodePickles, LLC",
+      "title": "Web Developer – Contract",
+      "location": "France",
+      "startDate": "Jul 2023",
+      "endDate": "Oct 2023 (3. mo)",
+      "description": "Built web application with REST API integration.",
+      "projects": [
+        {
+          "name": "Web Application",
+          "description": "Developed web app with REST API integration and database management",
+          "technologies": [
+            "JavaScript",
+            ".NET",
+            "SQL Server",
+            "HTML/CSS",
+            "jQuery"
+          ],
+          "screenshots": []
+        }
+      ]
+    },
+    {
+      "company": "Paradox Software Solutions",
+      "title": "Flutter Mobile Developer – Intern",
+      "location": "Beirut, Lebanon",
+      "startDate": "May 2022",
+      "endDate": "Sep 2022 (6. mo)",
+      "description": "Created restaurant ordering system with QR menu functionality.",
+      "projects": [
+        {
+          "name": "Restaurant QR System",
+          "description": "QR code-based menu and ordering system integrated with POS",
+          "technologies": ["Flutter", "Dart", "FastAPI", "Python"],
+          "screenshots": []
+        }
+      ]
+    }
+  ],
+  "personalProjects": [
+    {
+      "title": "AI Browser Agent Extension",
+      "description": "AI-powered browser automation with natural language commands and multi-step task execution",
+      "startDate": "Oct 2025",
+      "projects": [
+        {
+          "name": "AI Browser Agent Extension",
+          "description": "Developed an AI-powered browser automation agent capable of performing web tasks based on natural language commands. Integrated Entropic API for reasoning, task planning, and adaptive agentic behavior. Implemented context memory and execution tracing to handle multi-step actions (e.g., searching, filtering, data extraction). Designed modular architecture for task orchestration and secure API interaction using async Python. Demonstrated real-world automation examples such as email parsing and data-driven web navigation.",
+          "technologies": [
+            "Python",
+            "Entropic API",
+            "JavaScript",
+            "Chrome API"
+          ],
+          "screenshots": [],
+          "demoLink": "https://drive.google.com/file/d/17gFgHOI3O_K4T2_LnfDY4yhd0B_N2gLG/view",
+          "githubLink": "https://github.com/SABBIDO7/pointclick_agent"
+        }
+      ]
+    },
+    {
+      "title": "Voice-Driven 3D Object Generation",
+      "description": "Real-time 3D object creation in Unreal Engine via voice commands using OpenAI Whisper and GPT",
+      "startDate": "Jul 2025",
+      "projects": [
+        {
+          "name": "Voice-Driven 3D Object Generation",
+          "description": "Developed a POC enabling real-time creation of 3D interactive objects in Unreal Engine via natural voice commands. Integrated OpenAI Whisper for speech-to-text and GPT-3.5 for JSON-based object generation logic. Implemented dynamic actor spawning in Unreal Engine C++ (e.g., fruits, enemies, traps, bats). Designed a modular architecture with two modes: text input or live voice input for gameplay interaction. Aimed to make speech-driven content creation more accessible by building the system from scratch instead of paid plugins.",
+          "technologies": [
+            "Unreal Engine",
+            "C++",
+            "OpenAI Whisper",
+            "GPT-3.5 API"
+          ],
+          "screenshots": [],
+          "demoLink": "https://www.youtube.com/watch?v=MUb_I_GxGFs"
+        }
+      ]
+    },
+    {
+      "title": "Food Ordering App",
+      "description": "In-restaurant ordering app with automatic WhatsApp integration to kitchen",
+      "startDate": "Jan",
+      "endDate": "Mar 2025",
+      "projects": [
+        {
+          "name": "Food Ordering App",
+          "description": "In-restaurant ordering app with auto-sending orders to kitchen via WhatsApp. Platform compatibility for iOS and Android. Includes role-based access control with admins who can add new menu items and manage users, and super admins who can create and configure new restaurants in the system.",
+          "technologies": ["Flutter", "Dart", "Firebase", "Git"],
+          "screenshots": [
+            "image_22.png",
+            "image_23.png",
+            "image_24.png",
+            "image_25.png",
+            "image_26.png",
+            "image_27.png",
+            "image_28.png",
+            "image_29.png",
+            "image_30.png",
+            "image_31.png",
+            "image_32.png",
+            "image_33.png",
+            "image_34.png",
+            "image_35.png",
+            "image_36.png",
+            "image_37.png",
+            "image_38.png"
+          ],
+          "githubLink": "https://github.com/SABBIDO7/menuapp"
+        }
+      ]
+    },
+    {
+      "title": "URL Shortener",
+      "description": "Full-stack URL shortening service with analytics, link management, and usage tracking",
+      "startDate": "Feb 2025",
+      "projects": [
+        {
+          "name": "URL Shortener",
+          "description": "Full-stack web application providing URL shortening, link management, and usage tracking. Features include link creation, editing (expiration, naming, max usage), deletion, and redirection. Implemented usage statistics, error handling, notifications, and responsive UI. Additional utilities: copy short link to clipboard, quick access via short codes.",
+          "technologies": ["Python", "FastAPI", "React.js", "MUI", "Pytest"],
+          "screenshots": ["image_39.png", "image_40.png"],
+          "demoLink": "https://github.com/user-attachments/assets/5b73b34a-2189-441e-8c8f-923b787b0384",
+          "githubLink": "https://github.com/SABBIDO7/url-shortener"
+        }
+      ]
+    },
+    {
+      "title": "IoT Safe System",
+      "description": "AI-powered secure locker with facial recognition, GPS tracking, and sensor integration",
+      "startDate": "Feb - Jun 2024",
+      "projects": [
+        {
+          "name": "IoT Safe System",
+          "description": "AI-powered secure locker with facial recognition, GPS tracking, and sensor integration. Features a Flutter mobile app for admin control of the Raspberry Pi, including live camera streaming, user management for authorized access, and remote lock/unlock functionality. Admins can create new authorized users, monitor real-time video feeds, and grant access permissions when users request to open the safe.",
+          "technologies": [
+            "Raspberry Pi",
+            "Flutter",
+            "Dart",
+            "OpenCV",
+            "Python"
+          ],
+          "screenshots": [],
+          "githubLink": "https://github.com/SABBIDO7/fyp_safe_v2"
+        }
+      ]
+    },
+    {
+      "title": "Streaming App",
+      "description": "Live streaming platform with social interaction features",
+      "startDate": "Mar - Jun 2023",
+      "projects": [
+        {
+          "name": "Streaming App",
+          "description": "Live streaming platform with social interaction features",
+          "technologies": ["Flutter", "Dart", "Firebase", "Agora"],
+          "screenshots": []
+        }
+      ]
+    },
+    {
+      "title": "GPU ML Application",
+      "description": "GPU-accelerated machine learning with neural networks and clustering",
+      "startDate": "Sep - Dec 2024",
+      "projects": [
+        {
+          "name": "GPU ML Application",
+          "description": "GPU-accelerated machine learning with neural networks and clustering",
+          "technologies": ["C++", "CUDA", "PyTorch"],
+          "screenshots": []
+        }
+      ]
+    },
+    {
+      "title": "Java Desktop Application",
+      "description": "Java desktop app with CI/CD pipelines and containerization",
+      "startDate": "Oct 2023 - Jan 2024",
+      "projects": [
+        {
+          "name": "Java Desktop Application",
+          "description": "Java desktop application with CI/CD pipelines and Docker containerization",
+          "technologies": ["Java", "Flink", "Docker"],
+          "screenshots": []
+        }
+      ]
+    },
+    {
+      "title": "IoT Parking System",
+      "description": "Automated parking detection with real-time monitoring dashboards",
+      "startDate": "Apr - Jun 2023",
+      "projects": [
+        {
+          "name": "IoT Parking System",
+          "description": "Automated parking detection system with Grafana dashboards for real-time monitoring and analytics",
+          "technologies": ["Python", "Raspberry Pi", "Grafana"],
+          "screenshots": []
+        }
+      ]
+    },
+    {
+      "title": "Restaurant Website",
+      "description": "Multi-site restaurant management platform",
+      "startDate": "Oct 2022 - Jan 2023",
+      "projects": [
+        {
+          "name": "Restaurant Website",
+          "description": "Multi-site restaurant management platform with integrated mapping functionality",
+          "technologies": [".NET", "Laravel", "Google Maps API"],
+          "screenshots": []
+        }
+      ]
+    },
+    {
+      "title": "AI Object Detection",
+      "description": "Object detection models with image dataset expansion",
+      "startDate": "Mar - Jun 2021",
+      "projects": [
+        {
+          "name": "AI Object Detection",
+          "description": "Built object detection models with image dataset expansion using TensorFlow",
+          "technologies": ["TensorFlow", "Python"],
+          "screenshots": []
+        }
+      ]
+    }
+  ]
+}
