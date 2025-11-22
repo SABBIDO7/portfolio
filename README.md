@@ -23,9 +23,6 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 - [Project Structure](#-project-structure)
 - [JSON Data Architecture](#-json-data-architecture)
 - [Getting Started](#-getting-started)
-- [Configuration](#-configuration)
-- [Deployment](#-deployment)
-- [License](#-license)
 
 ## 🛠 Tech Stack
 

@@ -22,7 +22,6 @@ export function Footer({ contactInfo }: { contactInfo: ContactInfo }) {
         {email && (
           <a href={`mailto:${email}`} className='flex gap-2 hover:underline'>
             <Mail />
-            <b>{email}</b>
           </a>
         )}
         {linkedin && (
@@ -33,7 +32,6 @@ export function Footer({ contactInfo }: { contactInfo: ContactInfo }) {
             className='flex gap-2 hover:underline'
           >
             <Linkedin />
-            <b>{linkedin}</b>
           </a>
         )}
         {github && (
@@ -44,7 +42,6 @@ export function Footer({ contactInfo }: { contactInfo: ContactInfo }) {
             className='flex gap-2 hover:underline'
           >
             <Github />
-            <b>{github}</b>
           </a>
         )}
       </div>
