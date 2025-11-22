@@ -12,12 +12,11 @@ export function EducationSection({
   description,
 }: EducationSectionProps) {
   return (
-    <div id='educations' className='scroll-mt-31'>
-      <JourneyTimeline
-        title={title}
-        description={description}
-        experiences={educations}
-      ></JourneyTimeline>
-    </div>
+    <JourneyTimeline
+      id='educations'
+      title={title}
+      description={description}
+      experiences={educations}
+    ></JourneyTimeline>
   )
 }
