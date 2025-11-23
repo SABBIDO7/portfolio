@@ -4,6 +4,7 @@ import { MainExperiencesSection } from './sub_sections/projects_section/MainExpe
 import { EducationSection } from './sub_sections/EductionSection'
 import { Separator } from '@/components/ui/separator'
 import { SkillsSection } from './sub_sections/SkillsSection'
+import { CertificationsSection } from './sub_sections/CertifcationsSection'
 
 export function AppCoreMain({
   personalInfo,
@@ -12,6 +13,7 @@ export function AppCoreMain({
   personalProjects,
   educations,
   skills,
+  certifications,
 }: Data) {
   {
     /*
@@ -36,6 +38,8 @@ export function AppCoreMain({
       ></EducationSection>
       <Separator className='bg-text-primary'></Separator>
       <SkillsSection skills={skills}></SkillsSection>
+      <Separator className='bg-text-primary'></Separator>
+      <CertificationsSection certifications={certifications}></CertificationsSection>
     </div>
   )
 }

@@ -4,7 +4,6 @@ import { Github, Linkedin, Mail, Calendar } from 'lucide-react'
 
 export function Footer({ contactInfo }: { contactInfo: ContactInfo }) {
   const { email, github, linkedin } = contactInfo
-  const currentYear = new Date().getFullYear()
 
   return (
     <div className='flex flex-col gap-4 p-8 bg-bg-secondary text-lg text-bg-primary'>
@@ -18,7 +17,7 @@ export function Footer({ contactInfo }: { contactInfo: ContactInfo }) {
       </p>
 
       {/* Contact Info */}
-      <div className='flex flex-wrap flex-col lg:flex-row gap-4'>
+      <div className='flex gap-4'>
         {email && (
           <a href={`mailto:${email}`} className='flex gap-2 hover:underline'>
             <Mail />
@@ -51,10 +50,9 @@ export function Footer({ contactInfo }: { contactInfo: ContactInfo }) {
         <p>
           All project images use dummy data and are authorized by the company.
         </p>
-        <p>© {currentYear} Walid Sabbidine. All rights reserved.</p>
+        <p>© 2025 Walid Sabbidine. All rights reserved.</p>
         <p>
-          <Calendar className='inline w-4 h-4' /> Last updated:{' '}
-          {new Date().toLocaleDateString()}
+          <Calendar className='inline w-4 h-4' /> Last updated: 11/23/2025
         </p>
       </div>
     </div>

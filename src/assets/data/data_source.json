@@ -67,7 +67,8 @@
         "Docker",
         "CI/CD",
         "Git",
-        "Linux Azure",
+        "Linux",
+        "Azure",
         "Swagger",
         "Unreal Engine",
         "Raspberry Pi",
@@ -81,6 +82,24 @@
     {
       "title": "Languages",
       "technologies": ["French", "English", "Arabic"]
+    }
+  ],
+  "certifications": [
+    {
+      "provider": "DELF",
+      "certificates": [{ "title": "B2", "date": "2024" }]
+    },
+    {
+      "provider": "TOEIC",
+      "certificates": [{ "title": "775 out of 990", "date": "2025" }]
+    },
+    {
+      "provider": "CISCO",
+      "certificates": [
+        { "title": "Introduction to Networks", "date": "2020" },
+        { "title": "Routing and Switching", "date": "2021" },
+        { "title": "Scaling and Connecting Networks", "date": "2022" }
+      ]
     }
   ],
   "educations": [
@@ -171,6 +190,7 @@
           "name": "Sales Management Web App",
           "description": "Complete sales management platform with invoicing and employee tracking",
           "technologies": [
+            "JavaScript",
             "React.js",
             "Tailwind CSS",
             "MUI",
@@ -223,6 +243,7 @@
           "name": "E-commerce Website",
           "description": "Full-stack e-commerce solution with CI/CD pipeline",
           "technologies": [
+            "JavaScript/TypeScript",
             "React.js",
             "MUI",
             "Shadcn",
@@ -302,7 +323,8 @@
     {
       "title": "Voice-Driven 3D Object Generation",
       "description": "Real-time 3D object creation in Unreal Engine via voice commands using OpenAI Whisper and GPT",
-      "startDate": "Jul 2025",
+      "startDate": "Jun",
+      "endDate": "Jul 2025",
       "projects": [
         {
           "name": "Voice-Driven 3D Object Generation",
@@ -327,7 +349,7 @@
         {
           "name": "Food Ordering App",
           "description": "In-restaurant ordering app with auto-sending orders to kitchen via WhatsApp. Platform compatibility for iOS and Android. Includes role-based access control with admins who can add new menu items and manage users, and super admins who can create and configure new restaurants in the system.",
-          "technologies": ["Flutter", "Dart", "Firebase", "Git"],
+          "technologies": ["Flutter", "Dart", "Firebase"],
           "screenshots": [
             "image_22.png",
             "image_23.png",
@@ -359,7 +381,15 @@
         {
           "name": "URL Shortener",
           "description": "Full-stack web application providing URL shortening, link management, and usage tracking. Features include link creation, editing (expiration, naming, max usage), deletion, and redirection. Implemented usage statistics, error handling, notifications, and responsive UI. Additional utilities: copy short link to clipboard, quick access via short codes.",
-          "technologies": ["Python", "FastAPI", "React.js", "MUI", "Pytest"],
+          "technologies": [
+            "Python",
+            "FastAPI",
+            "TypeScript",
+            "React.js",
+            "MUI",
+            "Pytest",
+            "Docker"
+          ],
           "screenshots": ["image_39.png", "image_40.png"],
           "demoLink": "https://github.com/user-attachments/assets/5b73b34a-2189-441e-8c8f-923b787b0384",
           "githubLink": "https://github.com/SABBIDO7/url-shortener"
@@ -446,7 +476,13 @@
         {
           "name": "Restaurant Website",
           "description": "Multi-site restaurant management platform with integrated mapping functionality",
-          "technologies": [".NET", "Laravel", "Google Maps API"],
+          "technologies": [
+            ".NET",
+            "Laravel",
+            "JavaScript",
+            "HTML/CSS",
+            "Google Maps API"
+          ],
           "screenshots": []
         }
       ]

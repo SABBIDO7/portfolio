@@ -15,6 +15,7 @@ function JsonToModel(data_source: IncomingData): Data {
     personalProjects: data_source.personalProjects,
     educations: data_source.educations,
     skills: data_source.skills,
+    certifications: data_source.certifications,
   }
   return data
 }

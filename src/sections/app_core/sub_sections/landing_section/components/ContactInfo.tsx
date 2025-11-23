@@ -34,14 +34,22 @@ export function ContactInfo({ contactInfo }: { contactInfo: ContactInfo }) {
             </span>
           </CustomButton>
 
-          <CustomButton href={linkedin} className='bg-bg-primary p-6'>
+          <CustomButton
+            openOnNewTab='_blank'
+            href={linkedin}
+            className='bg-bg-primary p-6'
+          >
             <Linkedin className='w-8 h-8 text-text-primary group-hover:scale-110 transition-transform' />
             <span className='hidden lg:block text-sm text-text-primary font-medium'>
               LinkedIn
             </span>
           </CustomButton>
 
-          <CustomButton href={github} className='bg-bg-primary p-6'>
+          <CustomButton
+            openOnNewTab='_blank'
+            href={github}
+            className='bg-bg-primary p-6'
+          >
             <Github className='w-8 h-8 text-text-primary group-hover:scale-110 transition-transform' />
             <span className='hidden lg:block text-sm text-text-primary font-medium'>
               GitHub

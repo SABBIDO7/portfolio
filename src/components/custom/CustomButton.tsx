@@ -3,6 +3,7 @@ interface CustomButtonProps {
   onClick?: () => void
   className?: string
   href?: string | undefined
+  openOnNewTab?: string | undefined
   type?: 'button' | 'submit' | 'reset'
   download?: boolean
 }
@@ -12,11 +13,14 @@ export function CustomButton({
   onClick,
   className,
   href,
+  openOnNewTab,
   download,
 }: CustomButtonProps) {
   return (
     <a
       href={href}
+      target={openOnNewTab}
+      rel='noopener noreferrer'
       className={`flex items-center justify-center text-xl text-text-primary  hover:bg-bg-primary hover:border-bg-secondary hover:border hover:shadow-lg hover:-translate-y-1 transition-all duration-300 gap-3 p-3 rounded-xl 
              group ${className}`}
       onClick={onClick}

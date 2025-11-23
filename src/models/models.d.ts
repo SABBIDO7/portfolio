@@ -6,6 +6,7 @@ export interface Data {
   personalProjects: Experience[]
   educations: Experience[]
   skills: Skill[]
+  certifications: Certification[]
 }
 export interface PersonalInfo {
   description: string[]
@@ -40,6 +41,14 @@ export interface Skill {
   title: string
   technologies: string[]
 }
+export interface Certification {
+  provider: string
+  certificates: Certificates[]
+}
+interface Certificates {
+  title: string
+  date: string
+}
 export interface IncomingData {
   type_animation_list: { type: string; value: string | number }[]
   personal_info: { description: string[]; location: string }
@@ -52,6 +61,13 @@ export interface IncomingData {
   skills: {
     title: string
     technologies: string[]
+  }[]
+  certifications: {
+    provider: string
+    certificates: {
+      title: string
+      date: string
+    }[]
   }[]
   educations: {
     company: string

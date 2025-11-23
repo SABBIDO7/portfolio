@@ -24,6 +24,7 @@ export function Header({
     'Projects',
     'Educations',
     'Skills',
+    'Certifications',
   ]
   {
     /*
